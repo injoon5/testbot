@@ -1,6 +1,4 @@
 import discord
-import requests
-import json
 import os
 import sys
 import time
