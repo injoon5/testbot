@@ -45,4 +45,4 @@ async def on_message(message): # 입력되는 메세지에서 찾기
             await message.channel.send(f"Error occurred:```\n{type(e).__name__}: {str(e)}```")
         
         del args, code, silent
-client.run(os.getenv("dctoken")
+client.run(os.getenv("dctoken"))
